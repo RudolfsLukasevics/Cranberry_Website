@@ -2,12 +2,27 @@ project:
   type: website
 
 website:
-  title: "Cranberry Energy Project Monitoring"
+  title: "Home Energy Imrovements project"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+      - href: com.gmd
+        text: Com
+      
+      
+      #- sidebar:More
+
+  ##sidebar: 
+    #  - id: ""
+    #  - id: More
+    #  title: "More"
+    #  style: "docked"
+      #collapse-level: 2
+      #contents:
+       # - com.gmd
+#
 
 format:
   html:
